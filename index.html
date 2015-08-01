@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/main.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -183,6 +184,48 @@
                             </div>
                       </div>
 
+                    </div>
+
+
+                   
+
+
+
+    <div>
+
+            <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
+
+        <div class="ha-parallax-body">
+
+            <div class="ha-content ha-content-whitecolor">
+
+                "Our main goal is to build a pixel perfect, one page parallax template with unlimited possibilities applicable for different businesses."
+
+            </div>
+
+            <div class="ha-parallax-divider-wrapper">
+
+                <span class="ha-diamond-divider-md img-responsive"></span>
+
+            </div>
+
+            <div class="ha-heading-parallax">Spargo Team</div>
+
+        </div>
+
+    </div>
+    
+    
+  
+
+    </div>
+
+
+
+
+                      <div class="container">
+                     <main role="main">
+
                        <h1> Welcome to Packt Publishing </h1>
                       <p>An example to showcase the Bootstrap Grid classes</p>
 
@@ -206,8 +249,87 @@
                       </div>
             </main>
 
+         </div>
+
             <footer role="contentinfo">
-                 <p><small>Copyright &copy; Company Name</small></p>
+                <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li>
+                            <div class="input-append newsletter-box text-center">
+                                <input type="text" class="full text-center" placeholder="Email ">
+                                <button class="btn  bg-gray" type="button"> Lorem ipsum <i class="fa fa-long-arrow-right"> </i> </button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="social">
+                        <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.row--> 
+        </div>
+        <!--/.container--> 
+    </div>
+    <!--/.footer-->
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="pull-left"> Copyright © Footer E-commerce Plugin 2014. All right reserved. </p>
+            <div class="pull-right">
+                <ul class="nav nav-pills payments">
+                  <li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-amex"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul> 
+            </div>
+        </div>
+   
+    <!--/.footer-bottom--> 
             </footer>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -224,5 +346,38 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+
+         <script>
+
+                  $(function () {
+
+              "use strict";
+
+              var $bgobj = $(".ha-bg-parallax"); // assigning the object
+
+              $(window).on("scroll", function () {
+
+                  var yPos = -($(window).scrollTop() / $bgobj.data('speed'));
+
+                  // Put together our final background position
+
+                  var coords = '100% ' + yPos + 'px';
+
+                  // Move the background
+
+                  $bgobj.css({ backgroundPosition: coords });
+
+              });
+                  $('div.product-chooser').not('.disabled').find('div.product-chooser-item').on('click', function(){
+              $(this).parent().parent().find('div.product-chooser-item').removeClass('selected');
+              $(this).addClass('selected');
+              $(this).find('input[type="radio"]').prop("checked", true);
+              
+            });
+
+          });
+
+        </script>
+
     </body>
 </html>
