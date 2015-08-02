@@ -590,7 +590,13 @@ nav {
     }
 }
 
+.menu-dropdown {
+  background-color:#000; 
 
+  color:white;
+
+
+}
 
 /* end navbar */
 
