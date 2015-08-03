@@ -2,6 +2,7 @@
 body {
   padding:0;
   margin:0;
+  background-color: #99CDDC;
 }
 
 /*
@@ -691,6 +692,22 @@ ul.social-buttons li a:active {
 
  .page-header {
   color:#5B747B;
- }
+
+
+
+  /* service */
+
+   .service h3{font-weight:200;text-transform:uppercase;letter-spacing:1px;font-size:18px}
+
+ section#services .service p{font-size:14px}
+
+  /* end of service */
+
+ 
+ /* contact */
+
+
+
+ /* end of contact */
 
 
