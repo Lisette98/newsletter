@@ -2,7 +2,7 @@
 body {
   padding:0;
   margin:0;
-  background-color: #99CDDC;
+    background-color:#99cddc;
 }
 
 /*
@@ -188,7 +188,7 @@ hr.star-light:after {
 
 hr.star-light2:after {
     color: #000;
-    background-color: #f0f0f0;
+    background-color: #99CDDC;
 }
 
 
