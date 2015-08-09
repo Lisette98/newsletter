@@ -2,8 +2,22 @@
 body {
   padding:0;
   margin:0;
-    background-color:#99cddc;
+    background-color:#f86844;
     overflow-x: hidden;
+}
+
+ .link {
+  color:#000;
+}
+a {
+  color:#000;
+}
+  a:hover {
+  color:red;
+}
+
+.thumbnail {
+   border: 1px solid #f0f0f0;
 }
 
 /*
@@ -17,10 +31,10 @@ Image credits: unsplash.com
 /********************************/
 .fade-carousel {
     position: relative;
-    height: 75vh;
+    height: 100vh;
 }
 .fade-carousel .carousel-inner .item {
-    height: 75vh;
+    height: 100vh;
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
@@ -96,8 +110,8 @@ Image credits: unsplash.com
 .btn.btn-hero:hover,
 .btn.btn-hero:focus {
     color: #f5f5f5;
-    background-color:#5B747B;
-    border-color: #425459;
+    background-color:#FF3402;
+    border-color: red;
     outline: none;
     margin: 20px auto;
 }
@@ -108,7 +122,7 @@ Image credits: unsplash.com
 .fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
-  height: 75vh;
+  height: 100vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -189,7 +203,7 @@ hr.star-light:after {
 
 hr.star-light2:after {
     color: #000;
-    background-color: #99CDDC;
+    background-color: #f86844;
 }
 
 
@@ -692,7 +706,7 @@ ul.social-buttons li a:active {
 /* end social media */
 
  .page-header {
-  color:#5B747B;
+  color:#000;
 
 
 
@@ -705,10 +719,13 @@ ul.social-buttons li a:active {
   /* end of service */
 
  
- /* contact */
+ /* supporters */
+
+  .large-heading { font-size: 100px; }    
 
 
 
- /* end of contact */
+
+ /* end of supporters */
 
 
