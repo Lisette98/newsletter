@@ -25,6 +25,11 @@ body {
   text-decoration:underline;"
  }
 
+ .section-heading h1:hover {
+  color:red;
+  font-weight: bolder;
+ }
+
  /* end of goals page */
 
 
