@@ -6,6 +6,28 @@ body {
     overflow-x: hidden;
 }
 
+/* goals page */
+
+.med-con {
+  background-color: #EBECE9;
+  padding:15px;
+ }
+
+ .med-box {
+  background-color:#E0D9CD; 
+  padding:10px;
+  margin-bottom: 15px;
+ }
+
+ .read-mo {
+  padding-right:10px; 
+  font-size:120%; 
+  text-decoration:underline;"
+ }
+
+ /* end of goals page */
+
+
  .link {
   color:#000;
 }
@@ -727,5 +749,36 @@ ul.social-buttons li a:active {
 
 
  /* end of supporters */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
